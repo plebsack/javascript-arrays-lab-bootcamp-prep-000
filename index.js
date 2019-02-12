@@ -26,7 +26,7 @@ function prependKitten(name){
 }
 
 function removeLastKitten(){
-  return array.slice()
+  return array.slice(0, array.length - 1)
 }
 
 function removeFirstKitten(){
